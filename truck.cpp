@@ -15,3 +15,10 @@ class Truck : public Vehicle, public Autonomous {
       return 0; // do magic
   }
  
+  void range(){
+      //i am 12 and what is this?
+  }
+  
+  float getCost(){
+      return getPrice();
+  }
